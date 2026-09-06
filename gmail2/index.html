@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <a id="abrir" href="https://mail.google.com/" style="display:none">
+        Gmail
+    </a>
+
+    <script>
+        window.addEventListener("load", function () {
+            setTimeout(function () {
+                document.getElementById("abrir").click();
+            }, 150);
+        });
+    </script>
+</body>
+</html>
