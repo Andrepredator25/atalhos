@@ -3,14 +3,20 @@
 <head>
   <meta charset="utf-8">
   <title>Gmail</title>
-  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
 </head>
 
-<body>
+<body style="margin:0;background:#111">
+
 <script>
-setTimeout(() => {
-    window.open("https://mail.google.com/", "_blank");
-}, 1000);
+window.onload = function () {
+    setTimeout(function () {
+        window.open("https://mail.google.com/", "_blank");
+    }, 1000);
+};
 </script>
+
 </body>
 </html>
