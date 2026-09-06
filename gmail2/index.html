@@ -3,23 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Gmail</title>
-
-  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
-  <a id="go"
-     href="https://mail.google.com/"
-     target="_blank"
-     rel="noopener">
-     Abrir Gmail
-  </a>
-
-  <script>
-    setTimeout(() => {
-      document.getElementById("go").click();
-    }, 2000);
-  </script>
+<script>
+setTimeout(() => {
+    window.open("https://mail.google.com/", "_blank");
+}, 1000);
+</script>
 </body>
 </html>
