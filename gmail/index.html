@@ -3,19 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>Gmail</title>
-
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
-    <a id="abrir" href="https://mail.google.com/" style="display:none">
-        Gmail
-    </a>
+    <form id="go" action="https://mail.google.com/" method="get"></form>
 
     <script>
         window.addEventListener("load", function () {
             setTimeout(function () {
-                document.getElementById("abrir").click();
+                document.getElementById("go").submit();
             }, 150);
         });
     </script>
