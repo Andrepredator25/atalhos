@@ -4,17 +4,22 @@
   <meta charset="utf-8">
   <title>Gmail</title>
 
-  <link rel="icon" type="image/x-icon" href="./favicon.ico">
-  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
-  <a id="go" href="https://mail.google.com/" style="display:none">Gmail</a>
+  <a id="go"
+     href="https://mail.google.com/"
+     target="_blank"
+     rel="noopener">
+     Abrir Gmail
+  </a>
 
   <script>
     setTimeout(() => {
       document.getElementById("go").click();
-    }, 500);
+    }, 2000);
   </script>
 </body>
 </html>
